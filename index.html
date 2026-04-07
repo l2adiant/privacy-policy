@@ -1,1 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LagerLet Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #dbe3ee;
+      --accent: #1d4ed8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Segoe UI, Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 28px 18px 48px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      margin-bottom: 14px;
+    }
+    h1, h2 { margin: 0 0 10px; line-height: 1.25; }
+    h1 { font-size: 30px; }
+    h2 { font-size: 20px; margin-top: 12px; }
+    p, li { color: var(--muted); }
+    ul { padding-left: 20px; margin: 8px 0; }
+    .meta { color: var(--muted); font-size: 14px; }
+    .note {
+      border-left: 4px solid var(--accent);
+      background: #eef4ff;
+      color: #1e3a8a;
+      padding: 10px 12px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    code {
+      background: #eef2f7;
+      border: 1px solid #dce5ef;
+      border-radius: 5px;
+      padding: 1px 6px;
+      color: #1f2937;
+      font-family: Consolas, monospace;
+      font-size: 90%;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>LagerLet Privacy Policy</h1>
+      <p class="meta">Effective date: April 7, 2026</p>
+      <p>
+        This Privacy Policy explains how LagerLet ("we", "our", "us") collects, uses, and protects
+        personal data when you use the LagerLet mobile application.
+      </p>
+    </div>
 
+    <div class="card">
+      <h2>1. Data We Collect</h2>
+      <p>We may process the following categories of data:</p>
+      <ul>
+        <li>Account information: email address, user account ID, and profile details (for example name and company name).</li>
+        <li>Business data: customer/product/order data synchronized from your connected e-conomic account.</li>
+        <li>Authentication and access data: session tokens and security data necessary to keep you signed in.</li>
+        <li>Operational data: app settings (such as language, theme, scanner settings) and local cache data.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>2. Login and e-conomic Credentials</h2>
+      <p>
+        LagerLet requires user authentication. Users sign in with their own account.
+      </p>
+      <p>
+        If e-conomic credentials/tokens are provided (for example agreement grant token), they are used
+        only to authenticate and authorize requests against e-conomic APIs.
+      </p>
+      <div class="note">
+        e-conomic credentials and tokens are not sold and are not shared with unrelated third parties.
+        They are used solely for authentication/authorization and core app functionality.
+      </div>
+      <p>
+        The global e-conomic app secret is kept server-side only and is not exposed in the mobile client.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>3. How We Use Data</h2>
+      <ul>
+        <li>To authenticate users and secure access to the app.</li>
+        <li>To connect your account to e-conomic and process requested operations (for example read products/customers, create draft orders).</li>
+        <li>To provide app features, local caching, and configuration persistence.</li>
+        <li>To maintain service reliability, security, and troubleshooting.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>4. Data Sharing and Processors</h2>
+      <p>
+        We share data only with service providers required to operate the app:
+      </p>
+      <ul>
+        <li>Google Firebase (authentication, database, cloud functions).</li>
+        <li>e-conomic API (for user-authorized accounting/business operations).</li>
+      </ul>
+      <p>
+        We do not sell personal data to data brokers or advertisers.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>5. Storage and Security</h2>
+      <ul>
+        <li>We use access controls and authenticated server-side API calls.</li>
+        <li>Sensitive server credentials are stored on server infrastructure/environment variables, not in client code.</li>
+        <li>Some non-sensitive app data is cached locally on device for performance (for example profile cache/settings).</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>6. Retention</h2>
+      <p>
+        We retain data only as long as needed for legitimate business and legal purposes,
+        or until deletion is requested and permitted by applicable law.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>7. Your Rights</h2>
+      <p>
+        Depending on your jurisdiction, you may have rights to access, correct, or delete your data.
+        To request this, contact us at the address below.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>8. Children</h2>
+      <p>
+        LagerLet is intended for business use and is not directed to children.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>9. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Updated versions will be published with a revised effective date.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>10. Contact</h2>
+      <p>
+        Contact us at: <strong>support@lagerlet.com</strong><br />
+        If you use a different support email, replace this before publishing.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Play Console Note</h2>
+      <p>
+        This app uses user login (not anonymous global client key usage).
+        e-conomic authorization tokens are tied to authenticated users/companies and processed for core functionality.
+      </p>
+      <p>
+        The server-side app secret token is not embedded in the mobile app.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
