@@ -1,56 +1,112 @@
-LagerLet Privacy Policy
-Effective date: April 7, 2026
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LagerLet privacy policy and account and data deletion requests.">
+  <title>LagerLet — Privacy and account deletion</title>
+  <link rel="stylesheet" href="https://e-conomic-pos-connect.web.app/privacy.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>LagerLet Privacy Policy</h1>
+      <p>Last updated: October 8, 2026</p>
+      <p>This policy explains how LagerLet collects, uses, stores, and handles personal data when you use our mobile application.</p>
+      <nav aria-label="Policy sections">
+        <a href="#account-deletion">Request account and data deletion</a>
+        <a href="#data">Data we collect</a>
+        <a href="#retention">Retention</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-This Privacy Policy explains how LagerLet ("we", "our", "us") collects, uses, and protects personal data when you use the LagerLet mobile application.
+    <section id="account-deletion" aria-labelledby="deletion-heading">
+      <h2 id="deletion-heading">Account and data deletion</h2>
+      <p>You can request deletion of your LagerLet account and associated personal data without installing or signing in to the app.</p>
+      <ol>
+        <li>Email <a href="mailto:asim.nns@gmail.com?subject=LagerLet%20account%20deletion">asim.nns@gmail.com</a> with the subject <strong>LagerLet account deletion</strong>.</li>
+        <li>Send the request from your registered email address where possible. If you cannot access that address, contact us to discuss another way to verify ownership.</li>
+        <li>State whether you want your account deleted or want specific personal data deleted while keeping the account. Do not send passwords, e-conomic tokens, or customer/order documents.</li>
+      </ol>
+      <p><a class="action" href="mailto:asim.nns@gmail.com?subject=LagerLet%20account%20deletion">Email an account deletion request</a></p>
+      <p>Requests are reviewed manually. We verify ownership and confirm the scope before deletion. Our target is to respond and complete verified requests within 30 days; if more time or clarification is needed, we will explain why and provide an expected completion date.</p>
+      <h3>What is deleted</h3>
+      <p>For a verified account-deletion request, we remove the LagerLet sign-in account, user profile (including email, name, role, and company assignment), and user-specific pending e-conomic connection submissions and authorization-flow records. We review other associated personal records for deletion or anonymization.</p>
+      <h3>Shared records and exceptions</h3>
+      <p>An individual account request does not automatically delete a shared company, other users' accounts, or its company-level e-conomic connection. We review ownership and authorization before removing shared data or revoking a shared connection. Accounting records held in e-conomic and your e-conomic account must be managed separately through e-conomic and your company administrator.</p>
+      <p>Limited order-operation results, mutation/deletion journals, and security records may need to remain to prevent duplicate orders, recover incomplete changes, or meet a specific legal obligation. These records currently have no uniform automatic deletion period. As part of your request, we review whether they can be deleted or anonymized and explain any information retained, the reason, and the applicable retention period. They are not used for advertising.</p>
+      <h3>Data on your device</h3>
+      <p>Server deletion cannot remotely erase files on an offline device. Clear LagerLet's app storage in Android Settings or uninstall the app to remove local databases, cached PDFs, saved drafts, and preferences. Company-owned records and PDF copies saved outside LagerLet require separate handling.</p>
+    </section>
 
-1. Data We Collect
-We may process the following categories of data:
+    <section id="data">
+      <h2>1. Data we collect and process</h2>
+      <ul>
+        <li><strong>Account data:</strong> email address, user ID, name, company assignment, role, and approval/access status. Email and password are used for Firebase Authentication, including verification and password reset.</li>
+        <li><strong>Business data:</strong> products, customer records, and order information from your authorized e-conomic company. Depending on those records, this may include customer names, email addresses, telephone numbers, addresses, business identifiers, quantities, prices, tax values, and order PDFs.</li>
+        <li><strong>Authentication and connection data:</strong> sign-in session credentials and e-conomic authorization tokens needed to access connected accounts.</li>
+        <li><strong>Security and operational data:</strong> app/device integrity signals processed through Firebase App Check and Google Play Integrity, request-rate counters, operation IDs, recovery records, and redacted outcomes.</li>
+        <li><strong>Local app data:</strong> language, theme, scanner preferences, synchronized directories, saved drafts, PDFs, and local sync status. Preferences and local files are not all transmitted to our servers merely because they are stored on the device.</li>
+      </ul>
+    </section>
 
-Account information: email address, user account ID, and profile details (for example name and company name).
-Business data: customer/product/order data synchronized from your connected e-conomic account.
-Authentication and access data: session tokens and security data necessary to keep you signed in.
-Operational data: app settings (such as language, theme, scanner settings) and local cache data.
-2. Login and e-conomic Credentials
-LagerLet requires user authentication. Users sign in with their own account.
+    <section>
+      <h2>2. How we use data</h2>
+      <ul>
+        <li>Create and manage accounts, verify email addresses, control access, and support administrative approval.</li>
+        <li>Connect an authorized e-conomic company, synchronize products/customers, create requested orders, and retrieve PDFs.</li>
+        <li>Provide offline access, saved drafts, app preferences, and account-specific caches.</li>
+        <li>Prevent abuse, protect credentials, recover interrupted operations, and avoid duplicate orders.</li>
+        <li>Respond to support, privacy, and deletion requests.</li>
+      </ul>
+    </section>
 
-If e-conomic credentials/tokens are provided (for example agreement grant token), they are used only to authenticate and authorize requests against e-conomic APIs.
+    <section>
+      <h2>3. Service providers and access</h2>
+      <p>We use Google Firebase for authentication, database storage, server functions, hosting, and App Check; Google Play Integrity for app/device attestation; and e-conomic for authorized accounting operations. These providers process information necessary to perform those services under their applicable terms and privacy practices.</p>
+      <p>Authorized administrators can access the account and company information needed to manage users and approval. Authorized company users can access business information within their assigned company. We do not sell personal data or use it for third-party advertising.</p>
+      <p>If you open external links or export documents, the destination's own privacy practices apply.</p>
+    </section>
 
-e-conomic credentials and tokens are not sold and are not shared with unrelated third parties. They are used solely for authentication/authorization and core app functionality.
-The global e-conomic app secret is kept server-side only and is not exposed in the mobile client.
+    <section>
+      <h2>4. Credentials, storage, and security</h2>
+      <p>App connections to Firebase and e-conomic use HTTPS encryption in transit. We use authenticated access controls and company/account isolation. The global e-conomic app secret is stored server-side. Connected-company authorization tokens are held in restricted server records; ordinary profile and admin-directory reads return connection metadata instead of raw tokens.</p>
+      <p>Local business databases, drafts, and PDFs are stored in app-private directories separated by account/company. LagerLet does not add its own encryption layer to these local files. Signing out clears memory-only cart/customer state but does not necessarily erase all owned files. The current Android configuration excludes authentication and business caches from cloud backup/device transfer.</p>
+      <p>Application logs use operation identifiers and redacted outcomes rather than passwords, access tokens, or customer/order payloads. No storage or transmission method can guarantee absolute security.</p>
+    </section>
 
-3. How We Use Data
-To authenticate users and secure access to the app.
-To connect your account to e-conomic and process requested operations (for example read products/customers, create draft orders).
-To provide app features, local caching, and configuration persistence.
-To maintain service reliability, security, and troubleshooting.
-4. Data Sharing and Processors
-We share data only with service providers required to operate the app:
+    <section>
+      <h2>5. Camera and scanner</h2>
+      <p>Camera permission is used to scan barcodes. Camera frames are processed locally for this feature and are not uploaded by LagerLet. Supported hardware scanners can supply barcode values. A barcode may be used in product lookup or an authorized product update; this does not require uploading camera images.</p>
+    </section>
 
-Google Firebase (authentication, database, cloud functions).
-e-conomic API (for user-authorized accounting/business operations).
-We do not sell personal data to data brokers or advertisers.
+    <section id="retention">
+      <h2>6. Retention</h2>
+      <p>Account/profile information is retained while the account is maintained, subject to verified deletion requests. Company connection credentials remain until replaced, revoked, or removed through the authorized company workflow. Local files remain until removed in the app, app storage is cleared, or the app is uninstalled.</p>
+      <p>Operational recovery and security records do not currently all have automatic expiry. We assess these records during deletion requests and remove or anonymize associated personal information when it is no longer needed. Any justified retention is explained as described in the account-deletion section above.</p>
+      <p>e-conomic controls retention of accounting records in its service. Deleting a LagerLet account does not itself erase those records.</p>
+    </section>
 
-5. Storage and Security
-We use access controls and authenticated server-side API calls.
-Sensitive server credentials are stored on server infrastructure/environment variables, not in client code.
-Some non-sensitive app data is cached locally on device for performance (for example profile cache/settings).
-6. Retention
-We retain data only as long as needed for legitimate business and legal purposes, or until deletion is requested and permitted by applicable law.
+    <section>
+      <h2>7. Your choices and rights</h2>
+      <p>You can contact us to request access, correction, deletion, or information about how your personal data is handled. Rights and exceptions depend on applicable law. You can deny camera permission and manage app storage through Android Settings. For business records managed by your company, we may need to involve its authorized administrator.</p>
+    </section>
 
-7. Your Rights
-Depending on your jurisdiction, you may have rights to access, correct, or delete your data. To request this, contact us at the address below.
+    <section>
+      <h2>8. Children</h2>
+      <p>LagerLet is intended for business use and is not directed to children.</p>
+    </section>
 
-8. Children
-LagerLet is intended for business use and is not directed to children.
+    <section>
+      <h2>9. Policy updates</h2>
+      <p>We may update this policy when the app or its data practices change. The revision date appears at the top of this page.</p>
+    </section>
 
-9. Changes to This Policy
-We may update this Privacy Policy from time to time. Updated versions will be published with a revised effective date.
-
-10. Contact
-Contact us at: support@lagerlet.com
-If you use a different support email, replace this before publishing.
-
-Play Console Note
-This app uses user login (not anonymous global client key usage). e-conomic authorization tokens are tied to authenticated users/companies and processed for core functionality.
-
-The server-side app secret token is not embedded in the mobile app.
+    <section id="contact">
+      <h2>10. Contact</h2>
+      <p>For LagerLet support, privacy questions, or account/data deletion requests, email <a href="mailto:asim.nns@gmail.com">asim.nns@gmail.com</a>.</p>
+    </section>
+  </main>
+</body>
+</html>
